@@ -5,8 +5,7 @@ app.set('port', (process.env.PORT || 5000));
 
 
 app.get('/', function (req, res) {
-	  res.send('<!doctype html>
-	<html class="no-js" lang="en">
+	  res.send('<html class="no-js" lang="en">
 	  <head>
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
